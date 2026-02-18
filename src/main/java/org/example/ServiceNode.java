@@ -5,7 +5,7 @@ import org.json.JSONObject;
 import java.util.Random;
 
 public class ServiceNode {
-    public static void main(String[] args) throws Exception {
+     static void main(String[] args) throws Exception {
         // Parse args
         String routerIP = args[0];
         int routerPort = Integer.parseInt(args[1]);
